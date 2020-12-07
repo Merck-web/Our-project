@@ -30,6 +30,17 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-style: normal;
+    font-weight: 30;
+    font-size: 14px;
+    line-height: 50px;
+    color: #000000;
+    text-align: end;
+}
+
+h3 {}
+
 main {
     display: flex;
     justify-content: space-around;
@@ -37,12 +48,18 @@ main {
 }
 
 main img {
-    width: 27%; /* Ширина */
-    float: left; /* Выстраиваем элементы по горизонтали */
-    margin: 0 0 0 3.5%; /* Отступ слева */
-    background: #f0f0f0; /* Цвет фона */
-    border-radius: 5px; /* Радиус скругления */
-    padding: 2%; /* Поля */
+    width: 27%;
+    /* Ширина */
+    float: left;
+    /* Выстраиваем элементы по горизонтали */
+    margin: 0 0 0 3.5%;
+    /* Отступ слева */
+    background: #f0f0f0;
+    /* Цвет фона */
+    border-radius: 5px;
+    /* Радиус скругления */
+    padding: 2%;
+    /* Поля */
 }
 
 main p {
@@ -67,4 +84,13 @@ footer {
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+register {
+        font-style: normal;
+    font-weight: 30;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+    text-align: left;
 }
