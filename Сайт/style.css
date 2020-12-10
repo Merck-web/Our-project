@@ -1,33 +1,94 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
 caption,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
+
 body {
     font-family: Roboto, sans-serif;
-    background: yellow;
+    background: white;
 }
 
 header {
     height: 68px;
-    background: green;
+    background: grey;
     border: 1px solid #B5B7BA;
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 headder a {
@@ -52,6 +113,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 main img {
@@ -61,7 +123,7 @@ main img {
     /* Выстраиваем элементы по горизонтали */
     margin: 0 0 0 0%;
     /* Отступ слева */
-    background: green;
+    background: grey;
     /* Цвет фона */
     border: 1px solid black;
     border-radius: 5px;
@@ -71,31 +133,31 @@ main img {
 }
 
 main p {
-    color: #000000;
+    color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 footer {
-    position: absolute;
-    height: 80px;
+    
+    height: 60px;
     width: 100%;
     left: 0;
     bottom: 0%;
-    background: green;
+    background: grey;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
-    color: #C5C5C5;
+    color: white;
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
 register {
-        font-style: normal;
+    font-style: normal;
     font-weight: 30;
     font-size: 14px;
     line-height: 30px;
@@ -103,46 +165,50 @@ register {
     text-align: left;
 }
 
-.Register{
-        font-style: normal;
+.Register {
+    font-style: normal;
     font-weight: 30;
     font-size: 14px;
     line-height: 50px;
     color: #000000;
-    text-align: end;  
+    text-align: end;
 }
+
 .text {
     margin-left: 370px;
     color: #000000;
     font-size: 14px;
 }
-.container{
-    width:980px;
-    margin:0 auto;
-}
-    
-#search{
-    float: right;
-    height:26px;
-    overflow:hidden;
-    margin-top: 15px;
-}
-#adress .slogan{
-        font-size: 14px;
-        font-style: italic;
-        font-family: Georgia !important;
-        display:block;
-        margin-top: 52px;
-        text-align: left;
+
+.container {
+    width: 980px;
+    margin: 0 auto;
 }
 
-.image{
+#search {
+    float: right;
+    height: 26px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+#adress .slogan {
+    font-size: 14px;
+    font-style: italic;
+    font-family: Georgia !important;
+    display: block;
+    margin-top: 52px;
+    text-align: left;
+}
+
+.image {
     display: flex;
     justify-content: space-around;
     align-content: space-around;
 }
-.container{
-        display: flex;
+
+.container {
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
