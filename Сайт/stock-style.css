@@ -1,0 +1,83 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body
+{
+
+    font-family:Bookman, URW Bookman L, serif;
+    background:DarkGray
+    
+}
+
+header
+{
+    height: 68px;
+    background: LightGray;
+    border: 1px solid #B5B7BA;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main p
+{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    color:MediumSpringGreen;
+    margin:0 0 0 32%;
+    float:none;
+    font-size: 25px
+    
+}
+footer p
+{
+    color:red;
+}
+header a
+{
+    font-size: 20px
+}
+main img
+{
+    width: 27%;
+    float: none;
+    margin:7% 7% 15% 35%;
+    /* Отступ слева */
+    background: GhostWhite	;
+    /* Цвет фона 35
+    border: 1px solid black;
+    border-radius: 5px;
+    /* Радиус скругления */
+    padding: 2%;
+    /* Поля */
+}
+footer
+{
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    bottom: 0%;
+    background:LightGray ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #C5C5C5;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
