@@ -20,6 +20,9 @@ h4,
 h5,
 h6 {
     margin: 0;
+    font-size: 20px;
+    font-family: fantasy;
+    text-align: center;
 }
 
 .container {
@@ -103,22 +106,62 @@ h6 {
     flex-direction: column;
     justify-content: center;
 }
-.intro_inner{
+
+.intro_inner {
     width: 100%;
     max-width: 1700px;
     margin: 0 auto;
 }
-.text{
-    font-size: 20px;
+
+.text {
+    font-size: 14px;
     font-weight: 200;
     text-align: center;
     line-height: 1;
     margin: 30px 0;
 }
-.images{
+
+.images {
     text-align: center;
     margin: 30px 0;
 }
-.register{
-    margin: 30px 0;
+
+.register {
+    margin: 30px 10;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
+
+.footer_bottom-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 62px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 4px 0 5px;
+    
+}
+
+.footer_bottom {
+    
+    max-width: 1328px;
+    margin: 0 16px;
+    box-sizing: border-box;
+    border-top: 1px solid #282828;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 12px;
+    font-size: 12; 
+}
+
