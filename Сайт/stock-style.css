@@ -44,7 +44,7 @@ main p
 }
 footer p
 {
-    color:red;
+    color:white ;
 }
 header a
 {
@@ -63,6 +63,8 @@ main img
     /* Радиус скругления */
     padding: 2%;
     /* Поля */
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 footer
 {
