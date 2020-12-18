@@ -1,0 +1,139 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html{
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  color: #333;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 10px;
+  line-height: 135%;
+  float: left;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+ a{
+   color: #d38484;
+   text-decoration: none;
+ }
+
+ a:hover{
+   color: #efdea0;
+ }
+
+ .clear{
+   clear: both;
+ }
+ /*Стили для шапочки*/
+  header{
+    width: 98%;
+    float: left;
+    padding: 1%;
+    background-color: #fafafa;
+    border-bottom: 2px solid silver;
+    margin-bottom: 20px;
+  }
+  header #logo{
+    width: 40%;
+    float: left;
+    color: #939393;
+    font-size: 25px;
+    font-family: Times New Roman,sans-serif;
+  }
+  header #logo a {
+    color: #939393;
+    font-size: 25px;
+    font-family: Times New Roman,sans-seri
+  }
+  header #logo span{
+    color: #e36565;
+  }
+  header #menuHead{
+    width: 25%;
+    float: left;
+    font-size: 15px;
+  }
+  header #menuHead div{
+    float: left;
+    padding: 5px;
+    color: #000080;
+  }
+  header #regAuth{
+    width: 30%;
+    float: left;
+    text-align: right;
+    font-size: 15px;
+  }
+  header #regAuth a {
+    color: #4B0082;
+  }
+    /* Стили для основы сайта*/
+    #wrapper{
+      width: 80%;
+      margin-left: 10%;
+      float: left;
+    }
+    #wrapper #leftCol{
+      width: 70%;
+      margin-right: 10%;
+      float: left;
+    }
+    #wrapper #leftCol #bigArticle{
+      width: 78%;
+      margin-left: 10%;
+      background-color: #f6f6f6;
+      padding: 1%;
+    }
+    #wrapper #leftCol #bigArticle img{
+      width: 100%;
+      float: left;
+      
+    }
+    /* Стили для боковой панели*/
+    #wrapper #rightCol{
+      width: 20%;
+      float: left;
+    }
+  #wrapper #rightCol .banner{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    border: 2px solid silver;
+    box-sizing: border-box;
+  }
+  /* Стили для футера*/
+  footer{
+    width: 100%;
+    float: left;
+    padding: 1%;
+    background-color: #fafafa;
+    border-top: 2px solid silver;
+    margin-top: 10px;
+  }
+  footer #social {
+    float: left;
+    width: 50%;
+  }
+  footer #social img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  footer #rights {
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-size: 1.1em;
+  }
