@@ -13,6 +13,6 @@
 </a>
   </div>
   <div id="regAuth">
-<a href="/reg.php">Регистрация</a> |  <a href="/auth.php">Авторизация</a>
+<a href="/Shop.php">Магазин</a><a href="/reg.php">Регистрация</a> |  <a href="/auth.php">Авторизация</a>
   </div>
 </header>
